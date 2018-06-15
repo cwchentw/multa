@@ -27,7 +27,7 @@ require 'multa'
 
 DATA.split.each do |k, v|
   puts "#{k} =>"
-  puts v.map { |e| e }.join
+  puts v.to_a.join
 end
 
 __END__
@@ -46,7 +46,7 @@ baz
 require 'multa'
 
 DATA.cut.each do |e|
-  puts e.map { |e| e }.join
+  puts e.to_a.join
 end
 
 __END__
@@ -66,7 +66,7 @@ require 'multa'
 
 DATA.split('>').each do |k, v|
   puts "#{k} =>"
-  puts v.map { |e| e }.join
+  puts v.to_a.join
 end
 
 __END__
