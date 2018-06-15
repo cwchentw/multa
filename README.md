@@ -16,10 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ git clone https://github.com/cwchentw/multa.git
-    $ cd multa
-    $ gem build multa.gemspec
-    $ gem install multa-0.1.0.gem
+    $ gem install multa
 
 ## Usage
 
